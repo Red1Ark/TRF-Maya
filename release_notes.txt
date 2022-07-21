@@ -1,0 +1,43 @@
+/*******************************************************************************
+  * @File    : Release notes
+  * @Author  : Redouane Es-sadaoui <redouane.essadaoui@arkeocean.com>, Arkeocean
+  * @Brief   : Maya MSP430 Triton_F FW release notes.
+  * 
+  *
+*******************************************************************************/
+-Version 3.0.1a	- Date: August 26, 2021 
+		- File: 2021_08_26_TritonF_Maya_v3.0.1a
+		- Compatible DSP FW: v3.1 - maxIntegC
+
+	1) Change MSP430 UART baud rate (UCA0CTL = SMCLK (8M), UCA0BRx = 60, UCBRS = 4, UCBRF = 0)
+	
+-Version 3.0.0e	- Date: March 24, 2021 
+		- File: 2021_03_24_TritonF_Maya_v3.0.0e
+		- Compatible DSP FW: v3.1 - maxIntegC
+
+	1) Fix ENPNG issue (MSP430 issue)
+	
+-Version 3.0.0d	- Date: March 19, 2021 
+		- File: 2021_03_19_TritonF_Maya_v3.0.0d
+		- Compatible DSP FW: v3.1 - maxIntegC
+
+	1) +INTEGL et INTEGC HPI data in DTPNG
+	
+-Version 3.0.0c	- Date: March 11, 2021 
+		- File: 2021_03_11_TritonF_Maya_v3.0.0c
+		- Compatible DSP FW: v3.0 - maxIntegC
+
+	1) ToA, Interval and maxToA in 1us resolution
+	
+-Version 3.0.0b	- Date: March 11, 2021 
+		- File: 2021_03_11_TritonF_Maya_v3.0.0b
+		- Compatible DSP FW: v3.0 - maxIntegC
+
+	1) Interval in 100us resolution
+	
+-Version 3.0.0a	- Date: March 10, 2021 
+		- File: 2021_03_10_TritonF_Maya_v3.0.0a
+		- Compatible DSP FW: v3.0 - maxIntegC
+
+	1) Initial release from rolling stones v220l
+	2) Integrate distance at maxIntegC
